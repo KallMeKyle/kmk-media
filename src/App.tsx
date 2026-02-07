@@ -1454,7 +1454,7 @@ export default function App() {
     soundVolume: 0.5,
   });
 
-  const [session, setSession] = useState<Session | null>(null);
+  const [, setSession] = useState<Session | null>(null);
   const [sbUser, setSbUser] = useState<SupabaseUser | null>(null);
 
   const user: User | null = useMemo(() => {
